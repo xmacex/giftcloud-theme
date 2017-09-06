@@ -73,7 +73,7 @@ class OC_Theme {
 	 * @return string title
 	 */
 	public function getTitle() {
-		return 'Custom Cloud';
+		return 'GIFT cloud';
 	}
 
 	/**
@@ -81,7 +81,7 @@ class OC_Theme {
 	 * @return string title
 	 */
 	public function getName() {
-		return 'Custom Cloud';
+		return 'GIFT cloud';
 	}
 
 	/**
@@ -89,7 +89,7 @@ class OC_Theme {
 	 * @return string title
 	 */
 	public function getHTMLName() {
-		return 'Custom Cloud';
+		return 'GIFT cloud';
 	}
 
 	/**
@@ -97,7 +97,7 @@ class OC_Theme {
 	 * @return string entity name
 	 */
 	public function getEntity() {
-		return 'Custom Cloud Co.';
+		return 'GIFT';
 	}
 
 	/**
@@ -105,7 +105,7 @@ class OC_Theme {
 	 * @return string slogan
 	 */
 	public function getSlogan() {
-		return 'Your custom cloud, personalized for you!';
+		return 'Meaningful Personalization of Hybrid Virtual Museum Experiences Through Gifting and Appropriation';
 	}
 
 	/**
@@ -113,7 +113,7 @@ class OC_Theme {
 	 * @return string logo claim
 	 */
 	public function getLogoClaim() {
-		return '';
+		return 'Meaningful Personalization of Hybrid Virtual Museum Experiences Through Gifting and Appropriation';
 	}
 
 	/**
@@ -121,7 +121,7 @@ class OC_Theme {
 	 * @return string short footer
 	 */
 	public function getShortFooter() {
-		$footer = '© 2016 <a href="'.$this->getBaseUrl().'" target="_blank\">'.$this->getEntity().'</a>'.
+		$footer = '© 2017 <a href="'.$this->getBaseUrl().'" target="_blank\">'.$this->getEntity().'</a>'.
 			'<br/>' . $this->getSlogan();
 
 		return $footer;
@@ -132,7 +132,7 @@ class OC_Theme {
 	 * @return string long footer
 	 */
 	public function getLongFooter() {
-		$footer = '© 2016 <a href="'.$this->getBaseUrl().'" target="_blank\">'.$this->getEntity().'</a>'.
+		$footer = '© 2017 <a href="'.$this->getBaseUrl().'" target="_blank\">'.$this->getEntity().'</a>'.
 			'<br/>' . $this->getSlogan();
 
 		return $footer;

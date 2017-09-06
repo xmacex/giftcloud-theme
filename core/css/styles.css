@@ -22,7 +22,7 @@
 #body-user #header,
 #body-settings #header,
 #body-public #header {
-	background-color: #745bca;
+	background-color: #ff006e;
 }
 
 /* log in screen background color */
@@ -39,6 +39,10 @@
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#947bea', endColorstr='#745bca',GradientType=0 ); /* IE6-9 */
 }
 
+#body-login footer .info {
+	white-space: inherit;
+}
+
 /* primary action button, use sparingly */
 /* header color as border, brighter shade again, here as background */
 .primary,
@@ -52,7 +56,8 @@ input[type="button"].primary:active,
 button.primary:active,
 .button.primary:active {
 	border-color: #745bca;
-	background-color: #947bea;
+	/* background-color: #947bea; */
+	background-color: #ff006a;
 }
 .primary:hover,
 input[type="submit"].primary:hover,
@@ -76,11 +81,11 @@ button.primary:focus,
 /* use logos from theme */
 #header .logo {
 	background-image: url('../img/logo.svg');
-	width: 250px;
-	height: 121px;
+	width: 200px;
+	height: 200px;
 }
 #header .logo-icon {
 	background-image: url('../img/logo-icon.svg');
-	width: 62px;
-	height: 34px;
+	/* width: 30px;
+	height: 30px; */
 }
